@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/reg"
+    tools:context=".information">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/wall2"
+        android:layout_margin="29dp">
+
+        <ImageView
+            android:id="@+id/hed"
+            android:layout_width="305dp"
+            android:layout_height="109dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentRight="true"
+            android:layout_marginEnd="22dp"
+            android:layout_marginRight="22dp"
+            android:src="@drawable/welcome" />
+
+        <EditText
+            android:id="@+id/ett0"
+            android:layout_below="@+id/hed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="50dp"
+            android:hint="NIC*"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ett1"
+            android:layout_below="@id/ett0"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:hint="First Name*"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ett2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ett1"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="50dp"
+            android:hint="Last Name*"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ett3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ett2"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="50dp"
+            android:hint="Email*"
+            android:inputType="textEmailAddress"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ett4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ett3"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="50dp"
+            android:hint="Contact Number*"
+            android:inputType="number|phone"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:id="@+id/ett5"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ett4"
+            android:layout_margin="8dp"
+            android:layout_marginBottom="50dp"
+            android:hint="Address*"
+            android:inputType="textPersonName"
+            android:padding="8dp"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ett5"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentLeft="true"
+            android:layout_marginStart="100dp"
+            android:layout_marginLeft="100dp"
+            android:layout_marginTop="59dp"
+            android:layout_marginBottom="8dp"
+            android:backgroundTint="#13CFE6"
+            android:hint="Add Data"
+            android:textSize="20dp" />
+
+        <ImageButton
+            android:id="@+id/imageButton"
+            android:layout_width="57dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginLeft="66dp"
+            android:layout_marginTop="521dp"
+            android:layout_toEndOf="@+id/b1"
+            android:layout_toRightOf="@+id/b1"
+            android:padding="25dp"
+            android:src="@drawable/showlist"
+            />
+
+        <ImageView
+            android:layout_width="53dp"
+            android:layout_height="57dp"
+            android:layout_marginLeft="130dp"
+            android:layout_marginTop="620dp"
+            android:background="#25000000"
+            android:src="@drawable/log" />
+    </RelativeLayout>
+
+
+</RelativeLayout>

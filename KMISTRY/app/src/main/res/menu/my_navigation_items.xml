@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+        <item
+            android:id="@+id/nav_home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_theme"
+            android:icon="@drawable/ic_nights_stay"
+            android:title="@string/menu_name" />
+        <item
+            android:id="@+id/about"
+            android:icon="@drawable/ic_account_circle"
+            android:title="About" />
+
+
+
+    <item android:title="Admin Panel">
+        <menu>
+            <item
+                android:id="@+id/nav_login"
+                android:icon="@drawable/ic_admin_panel_settings"
+                android:title="Login" />
+        </menu>
+    </item>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_baseline_share"
+                android:title="Share" />
+            <item
+                android:id="@+id/nav_rate"
+                android:icon="@drawable/ic_rate_review"
+                android:title="Rate us" />
+        </menu>
+    </item>
+</menu>

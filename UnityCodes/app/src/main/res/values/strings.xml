@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Unity Codes</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="youtube_video_url_submit_data">මෙහී Video Url එකට ඔබගේ Youtube Video හී URL එක ලබාදෙන්න පසුව ඔබගේ වීඩියො ව්‍වේ තම්මෙල් එක ලොඩ් ඌ පසූ අදල ඩිස්ක්‍රිප්ශන් එක ලබාදෙන්න ඉන්පසුව Submit Data ඔබන්න</string>
+    <string name="ad">AD</string>
+    <!--    <string name="default_web_client_id">Unity Codes</string>-->
+</resources>

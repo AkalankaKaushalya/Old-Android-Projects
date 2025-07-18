@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "634847251234",
+    "firebase_url": "https://unitycodes-6cb70-default-rtdb.firebaseio.com",
+    "project_id": "unitycodes-6cb70",
+    "storage_bucket": "unitycodes-6cb70.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:634847251234:android:858e7a0eb87f72182e737b",
+        "android_client_info": {
+          "package_name": "com.ak.unitycode.sl"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "634847251234-9hlcoattcahj47jmasppflpn2cd5ab45.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.ak.unitycode.sl",
+            "certificate_hash": "cb0089ec7679ca9fdbe2bbbb0351131bee02a7fa"
+          }
+        },
+        {
+          "client_id": "634847251234-5d4ts7dcjqpfmto9hvc7khj5df4u6von.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAknJttx_j9FSRN5em866-PYZLvgcoI2MI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "634847251234-5d4ts7dcjqpfmto9hvc7khj5df4u6von.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

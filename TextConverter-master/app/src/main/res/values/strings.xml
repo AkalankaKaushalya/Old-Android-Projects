@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Text Converter</string>
+    <string name="menu_prompt">Select operation mode</string>
+    <string-array name="menu">
+        <item>ASCII to Hex String</item>
+        <item>Hex String to ASCII</item>
+        <item>Clean string</item>
+        <item>To upper case</item>
+        <item>To lower case</item>
+    </string-array>
+</resources>

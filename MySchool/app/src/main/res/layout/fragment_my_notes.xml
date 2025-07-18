@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Tabs.MyNotesFragment">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ListView
+            android:id="@+id/mynoteLv"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:orientation="horizontal"
+            android:padding="5dp">
+
+            <Button
+                android:id="@+id/myaddNoteBtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="1"
+                android:background="@drawable/shape_button04"
+                android:drawableStart="@drawable/ic_action_addnote"
+                android:drawableLeft="@drawable/ic_action_addnote"
+                android:gravity="start|center"
+                android:paddingLeft="100dp"
+                android:text="Add Notes"
+                android:textAlignment="textStart"
+                android:textColor="@color/black"
+                android:textStyle="normal|bold" />
+
+            <TextView
+                android:id="@+id/countTv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_weight="3"
+                android:gravity="center"
+                android:hint="Count Of Notes"
+                android:textColor="#C35502"
+                android:textSize="15sp"
+                android:textStyle="bold|normal" />
+        </LinearLayout>
+    </RelativeLayout>
+</FrameLayout>

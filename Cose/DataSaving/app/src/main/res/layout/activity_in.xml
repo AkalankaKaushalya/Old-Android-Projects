@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:background="#2B2B2B"
+    android:id="@+id/bbb">
+<RelativeLayout
+    android:layout_width="wrap_content"
+    android:layout_height="380dp"
+    android:background="@drawable/b">
+
+
+    </RelativeLayout>
+
+
+    <ImageButton
+        android:id="@+id/img1"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginLeft="50dp"
+        android:layout_marginTop="440dp"
+        android:background="@drawable/add" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="ADD"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="100dp"
+        android:layout_below="@+id/img1"/>
+
+
+    <ImageButton
+        android:id="@+id/img2"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="440dp"
+        android:layout_marginLeft="240dp"
+        android:background="@drawable/list" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="LIST"
+        android:textColor="@color/teal_700"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:layout_marginLeft="290dp"
+        android:layout_below="@+id/img1"/>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="109dp"
+        android:layout_height="94dp"
+        android:layout_marginTop="640dp"
+        android:layout_marginLeft="150dp"
+        app:srcCompat="@drawable/log" />
+
+
+
+
+</RelativeLayout>
+
+
+
+
+
+

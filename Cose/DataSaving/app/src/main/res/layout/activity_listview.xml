@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/reg"
+    tools:context=".ListActivity">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_margin="20dp">
+        <LinearLayout
+            android:id="@+id/usernameLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="26dp"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="203dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:text="Welcome"
+                android:textAlignment="center"
+                android:textColor="#FFFFFF"
+                android:textSize="38dp"
+                android:textStyle="bold" />
+        </LinearLayout>
+        <LinearLayout
+            android:id="@+id/billlistLL"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/usernameLL"
+            android:gravity="center"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Member List"
+                android:textColor="@color/white"
+
+                android:textSize="23sp"
+                android:gravity="center"
+                android:textAlignment="center"/>
+        </LinearLayout>
+
+        <ListView
+            android:id="@+id/list"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_above="@id/addBill"
+            android:layout_below="@+id/usernameLL"
+            android:layout_marginTop="54dp"
+            android:layout_marginBottom="17dp"
+            tools:listitem="@layout/item_row" />
+
+        <com.google.android.material.floatingactionbutton.FloatingActionButton
+            android:id="@+id/addBill"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:src="@drawable/addimg"
+            app:backgroundTint="#C5BABA"
+            android:layout_marginBottom="10dp"
+            android:layout_marginRight="10dp"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    tools:context=".Splash_Screen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Boom Chat"
+        android:textSize="35dp"
+        android:id="@+id/splash_txt"
+        android:fontFamily="@font/bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:layout_width="150dp"
+        android:layout_height="158dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/boom_icon"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="@id/splash_txt" />
+
+    <com.agrawalsuneet.dotsloader.loaders.AllianceLoader
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:alliance_animDuration="500"
+        app:alliance_distanceMultiplier="4"
+        app:alliance_dotsRadius="5dp"
+        app:alliance_drawOnlyStroke="true"
+        app:alliance_firstDotsColor="@color/red"
+        app:alliance_secondDotsColor="@color/yelo"
+        app:alliance_strokeWidth="5dp"
+        app:alliance_thirdDotsColor="@color/green" />
+
+</LinearLayout>

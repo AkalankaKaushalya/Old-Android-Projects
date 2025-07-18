@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.appcompat.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="55dp"
+    android:id="@+id/custem_toolbar"
+    android:orientation="horizontal">
+    <de.hdodenhof.circleimageview.CircleImageView
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/profil"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:src="@drawable/profil"
+        app:civ_border_width="2dp"
+        app:civ_border_color="#FF000000"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:gravity="center">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="C"
+        android:textSize="25dp"
+        android:textColor="#F3EF13"
+        android:fontFamily="@font/baskvill"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_gravity="center"
+        android:text="K"
+        android:textSize="25dp"
+        android:textColor="#F3EF13"
+        android:fontFamily="@font/baskvill"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/baskvill"
+            android:padding="5dp"
+            android:text="Food"
+            android:textColor="@color/black"
+            android:textSize="25dp" />
+    </LinearLayout>
+</androidx.appcompat.widget.Toolbar>
+
+

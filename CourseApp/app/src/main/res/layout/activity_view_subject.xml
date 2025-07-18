@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewSubjectActivity">
+
+    <EditText
+        android:id="@+id/Ssubject"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edbg"
+        android:layout_margin="8dp"
+        android:hint="Subject"/>
+
+    <EditText
+        android:id="@+id/Smessage"
+        android:layout_below="@+id/Ssubject"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/edbg"
+        android:hint="Message"
+        android:textColor="@color/black"
+        android:textSize="14sp"
+        android:textStyle="bold" />
+
+</RelativeLayout>

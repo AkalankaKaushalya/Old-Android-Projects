@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@android:color/transparent"
+    android:layout_marginBottom="20dp">
+
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/card_lottie"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:cardBackgroundColor="@android:color/transparent"
+        android:background="@android:color/transparent"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="0dp">
+    <com.airbnb.lottie.LottieAnimationView
+        android:id="@+id/png_center_2"
+        android:layout_width="match_parent"
+        android:scaleType="fitXY"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:lottie_autoPlay="true"
+        style="@style/paka"
+        app:lottie_loop="true" />
+    </androidx.cardview.widget.CardView>
+
+
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/profilepic"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/banner_2" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:layout_marginTop="20dp"
+        android:layout_toRightOf="@id/profilepic"
+        android:text="K-MISTRY APP"
+        android:textColor="@color/black"
+        android:textSize="16dp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/name"
+        android:layout_marginLeft="16dp"
+        android:layout_toRightOf="@id/profilepic"
+        android:text="SKYPPER TEAM"
+        android:textColor="@color/green_300"
+        android:textSize="12dp" />
+
+
+    <View
+        android:layout_below="@+id/username"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        style="@style/line"/>
+</RelativeLayout>

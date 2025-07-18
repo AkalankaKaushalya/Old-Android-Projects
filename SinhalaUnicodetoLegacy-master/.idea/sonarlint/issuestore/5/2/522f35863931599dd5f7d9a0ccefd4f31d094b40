@@ -1,0 +1,317 @@
+
+X
+java:S2479Í":Remove the non-escaped \u200D character from this literal.(øÔ³ä8…¡ûı.
+]
+java:S2479":Remove the non-escaped \u200D character from this literal.(ÀÅ¥üÿÿÿÿ8…¡ûı.
+a
+java:S1858ì">"text" returns a string, there's no need to call "toString()".(ØÏÊúÿÿÿÿ8…¡ûı.
+¤
+java:S1186Ë"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ñ®çâùÿÿÿÿ8…¡ûı.
+]
+java:S2479í":Remove the non-escaped \u200D character from this literal.(ÓÏøûüÿÿÿÿ8…¡ûı.
+]
+java:S2479Ü":Remove the non-escaped \u200D character from this literal.(ÔÕ÷‡øÿÿÿÿ8…¡ûı.
+]
+java:S2479è":Remove the non-escaped \u200D character from this literal.(î“€‹ùÿÿÿÿ8…¡ûı.
+W
+java:S2479Œ":Remove the non-escaped \u200D character from this literal.(ŸáÓa8…¡ûı.
+]
+java:S2479¯":Remove the non-escaped \u200D character from this literal.(Œ²šŒùÿÿÿÿ8…¡ûı.
+]
+java:S2479Ò":Remove the non-escaped \u200D character from this literal.(É‰âµùÿÿÿÿ8…¡ûı.
+L
+java:S1068="*Remove this unused "myClip" private field.(¶Á±äùÿÿÿÿ8…¡ûı.
+]
+java:S2479Ï":Remove the non-escaped \u200D character from this literal.(ö§§×øÿÿÿÿ8…¡ûı.
+X
+java:S2479‚":Remove the non-escaped \u200D character from this literal.(âĞŞÓ8…¡ûı.
+X
+java:S2479¬":Remove the non-escaped \u200D character from this literal.(Üï‡É8…¡ûı.
+X
+java:S2479Á":Remove the non-escaped \u200D character from this literal.(÷ÒÔÓ8…¡ûı.
+]
+java:S2479Ÿ":Remove the non-escaped \u200D character from this literal.(ÎëÁÆúÿÿÿÿ8…¡ûı.
+]
+java:S2479û":Remove the non-escaped \u200D character from this literal.(Ÿ‘´ÿÿÿÿÿ8…¡ûı.
+]
+java:S2479›":Remove the non-escaped \u200D character from this literal.(İÙÛ­üÿÿÿÿ8…¡ûı.
+]
+java:S2479€":Remove the non-escaped \u200D character from this literal.(¥¨ïüøÿÿÿÿ8…¡ûı.
+X
+java:S2479Ö":Remove the non-escaped \u200D character from this literal.(ü»Û©8…¡ûı.
+X
+java:S2479ï":Remove the non-escaped \u200D character from this literal.(ášâ¹8…¡ûı.
+]
+java:S2479È":Remove the non-escaped \u200D character from this literal.(şĞ¡âûÿÿÿÿ8…¡ûı.
+?	java:S131˜""Add a default case to this switch.(ºÖ8ÓĞÔûı.
+£
+java:S1186U"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(Èø©óùÿÿÿÿ8…¡ûı.
+C
+java:S1905|"&Remove this unnecessary cast to "int".(—°ñÃ8…¡ûı.
+X
+java:S2479Ğ":Remove the non-escaped \u200D character from this literal.(‡È©û8…¡ûı.
+X
+java:S2479ö":Remove the non-escaped \u200D character from this literal.(áûÀï8…¡ûı.
+g	java:S116>"RRename this field "Legacys" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(ãÂ°
+X
+java:S2479ğ":Remove the non-escaped \u200D character from this literal.(²ºáö8…¡ûı.
+]
+java:S2479¥":Remove the non-escaped \u200D character from this literal.(¤—Ş‹ıÿÿÿÿ8…¡ûı.
+]
+java:S2479Å":Remove the non-escaped \u200D character from this literal.(¹úÂ»şÿÿÿÿ8…¡ûı.
+]
+java:S2479¾":Remove the non-escaped \u200D character from this literal.(œ²¡ñûÿÿÿÿ8…¡ûı.
+X
+java:S2479¿":Remove the non-escaped \u200D character from this literal.(á´ñ×8…¡ûı.
+]
+java:S2479ı":Remove the non-escaped \u200D character from this literal.(­Õşİøÿÿÿÿ8…¡ûı.
+]
+java:S2479™":Remove the non-escaped \u200D character from this literal.(úºÉŸøÿÿÿÿ8…¡ûı.
+]
+java:S2479":Remove the non-escaped \u200D character from this literal.(¦è‘Êøÿÿÿÿ8…¡ûı.
+X
+java:S2479Ì":Remove the non-escaped \u200D character from this literal.(¨šƒÂ8…¡ûı.
+X
+java:S2479Ã":Remove the non-escaped \u200D character from this literal.(ïÁƒ8…¡ûı.
+]
+java:S2479«":Remove the non-escaped \u200D character from this literal.(­—‰ûÿÿÿÿ8…¡ûı.
+]
+java:S2479Õ":Remove the non-escaped \u200D character from this literal.(êæŸôÿÿÿÿÿ8…¡ûı.
+X
+java:S2479â":Remove the non-escaped \u200D character from this literal.(œÛ›é8…¡ûı.
+]
+java:S2479î":Remove the non-escaped \u200D character from this literal.(£È¡Ìıÿÿÿÿ8…¡ûı.
+W
+java:S2479‚":Remove the non-escaped \u200D character from this literal.(Ïøác8…¡ûı.
+j	java:S101Ã"MRename this class name to match the regular expression '^[A-Z][a-zA-Z0-9]*$'.(Åöûè8÷¸ûı.
+]
+java:S2479ƒ":Remove the non-escaped \u200D character from this literal.(Ôã¾øÿÿÿÿ8…¡ûı.
+Ÿ
+java:S1186û"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÏøÕ¹8…¡ûı.
+]
+java:S2479×":Remove the non-escaped \u200D character from this literal.(ùå ÿıÿÿÿÿ8…¡ûı.
+]
+java:S2479":Remove the non-escaped \u200D character from this literal.(¤‚ÏÄÿÿÿÿÿ8…¡ûı.
+]
+java:S2479Û":Remove the non-escaped \u200D character from this literal.(ïâ®ùÿÿÿÿ8…¡ûı.
+]
+java:S2479Ñ":Remove the non-escaped \u200D character from this literal.(®‹Œİıÿÿÿÿ8…¡ûı.
+W
+java:S2479‰":Remove the non-escaped \u200D character from this literal.(õ´št8…¡ûı.
+]
+java:S2479":Remove the non-escaped \u200D character from this literal.(¨¾ëŒüÿÿÿÿ8…¡ûı.
+J
+java:S1481ì"'Remove this unused "ok" local variable.(ØÏÊúÿÿÿÿ8…¡ûı.
+]
+java:S2479ñ":Remove the non-escaped \u200D character from this literal.(œú¦Šÿÿÿÿÿ8…¡ûı.
+X
+java:S2479ß":Remove the non-escaped \u200D character from this literal.(†öÒì8…¡ûı.
+X
+java:S2479–":Remove the non-escaped \u200D character from this literal.(¤¢ğò8…¡ûı.
+]
+java:S2479®":Remove the non-escaped \u200D character from this literal.(Ÿí¦¨ûÿÿÿÿ8…¡ûı.
+]
+java:S2479¨":Remove the non-escaped \u200D character from this literal.(İ¼Ûüÿÿÿÿ8…¡ûı.
+]
+java:S2479è":Remove the non-escaped \u200D character from this literal.(«Ô“Ëøÿÿÿÿ8…¡ûı.
+k	java:S1169"QRename this field "Legacy" to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(İøƒùÿÿÿÿ
+]
+java:S2479Ó":Remove the non-escaped \u200D character from this literal.(Ëîö³ûÿÿÿÿ8…¡ûı.
+]
+java:S2479…":Remove the non-escaped \u200D character from this literal.(áœÅâøÿÿÿÿ8…¡ûı.
+X
+java:S2479ˆ":Remove the non-escaped \u200D character from this literal.(ìÑô£8…¡ûı.
+X
+java:S2479½":Remove the non-escaped \u200D character from this literal.(•„×²8…¡ûı.
+W
+java:S2479Ä":Remove the non-escaped \u200D character from this literal.(ñè©68…¡ûı.
+X
+java:S2479‹":Remove the non-escaped \u200D character from this literal.(™·ƒç8…¡ûı.
+]
+java:S2479÷":Remove the non-escaped \u200D character from this literal.(‰ì´Îúÿÿÿÿ8…¡ûı.
+]
+java:S2479ß":Remove the non-escaped \u200D character from this literal.(ŠÒÜüøÿÿÿÿ8…¡ûı.
+]
+java:S2479":Remove the non-escaped \u200D character from this literal.(Íşæ°ÿÿÿÿÿ8…¡ûı.
+]
+java:S2479Â":Remove the non-escaped \u200D character from this literal.(å¨Œûÿÿÿÿ8…¡ûı.
+X
+java:S2479ó":Remove the non-escaped \u200D character from this literal.(ÿµúî8…¡ûı.
+Y
+java:S1128"7Remove this unused import 'android.widget.ImageButton'.(‚ÏÉõÿÿÿÿÿ8Óúı.
+]
+java:S2479ª":Remove the non-escaped \u200D character from this literal.(¸Û¢šùÿÿÿÿ8…¡ûı.
+X
+java:S2479Î":Remove the non-escaped \u200D character from this literal.(é°ø8…¡ûı.
+]
+java:S2479":Remove the non-escaped \u200D character from this literal.(¬•â¯üÿÿÿÿ8…¡ûı.
+X
+java:S2479‘":Remove the non-escaped \u200D character from this literal.(³­õÕ8…¡ûı.
+]
+java:S2479õ":Remove the non-escaped \u200D character from this literal.(Àê¶½ûÿÿÿÿ8…¡ûı.
+Ÿ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÏøÕ¹8…¡ûı.
+]
+java:S2479§":Remove the non-escaped \u200D character from this literal.(á¥İôıÿÿÿÿ8…¡ûı.
+]
+java:S2479ò":Remove the non-escaped \u200D character from this literal.(Á¯×„ÿÿÿÿÿ8…¡ûı.
+X
+java:S2479µ":Remove the non-escaped \u200D character from this literal.(×¼Î8…¡ûı.
+]
+java:S2479†":Remove the non-escaped \u200D character from this literal.(·ïä—ùÿÿÿÿ8…¡ûı.
+W
+java:S2479ÿ":Remove the non-escaped \u200D character from this literal.(û¯è8…¡ûı.
+]
+java:S2479“":Remove the non-escaped \u200D character from this literal.(û­ú€ùÿÿÿÿ8…¡ûı.
+X
+java:S2479œ":Remove the non-escaped \u200D character from this literal.(°‡úÃ8…¡ûı.
+]
+java:S2479¼":Remove the non-escaped \u200D character from this literal.(âöş¡ùÿÿÿÿ8…¡ûı.
+]
+java:S2479ã":Remove the non-escaped \u200D character from this literal.(»çâªøÿÿÿÿ8…¡ûı.
+W
+java:S2479»":Remove the non-escaped \u200D character from this literal.(Û¯Õ8…¡ûı.
+X
+java:S2479":Remove the non-escaped \u200D character from this literal.(ºÌ¶”8…¡ûı.
+]
+java:S2479·":Remove the non-escaped \u200D character from this literal.(Ü¿»Æıÿÿÿÿ8…¡ûı.
+q
+java:S1192Î"NDefine a constant instead of duplicating this literal "Text Copied !" 3 times.(¾Ç¿Öùÿÿÿÿ8÷¸ûı.
+X
+java:S2479Ù":Remove the non-escaped \u200D character from this literal.(öò³¯8…¡ûı.
+X
+java:S2479å":Remove the non-escaped \u200D character from this literal.(Ÿ¢×»8…¡ûı.
+]
+java:S2479Æ":Remove the non-escaped \u200D character from this literal.(ñ«Şşûÿÿÿÿ8…¡ûı.
+]
+java:S2479É":Remove the non-escaped \u200D character from this literal.(¡æ•²şÿÿÿÿ8…¡ûı.
+X
+java:S2479İ":Remove the non-escaped \u200D character from this literal.(È¾¼8…¡ûı.
+X
+java:S2479æ":Remove the non-escaped \u200D character from this literal.(§×ä»8…¡ûı.
+X
+java:S2479ç":Remove the non-escaped \u200D character from this literal.(³­õÕ8…¡ûı.
+X
+java:S2479‡":Remove the non-escaped \u200D character from this literal.(†ˆ Œ8…¡ûı.
+]
+java:S2479•":Remove the non-escaped \u200D character from this literal.(Ö·³Ëùÿÿÿÿ8…¡ûı.
+]
+java:S2479—":Remove the non-escaped \u200D character from this literal.(ğ˜ÿıÿÿÿÿÿ8…¡ûı.
+X
+java:S2479š":Remove the non-escaped \u200D character from this literal.(å…¨‡8…¡ûı.
+]
+java:S2479º":Remove the non-escaped \u200D character from this literal.(§–œøÿÿÿÿ8…¡ûı.
+]
+java:S2479Ç":Remove the non-escaped \u200D character from this literal.(´ôˆùÿÿÿÿ8…¡ûı.
+X
+java:S2479ë":Remove the non-escaped \u200D character from this literal.(ÁËş€8…¡ûı.
+]
+java:S2479­":Remove the non-escaped \u200D character from this literal.(ƒí³üÿÿÿÿ8…¡ûı.
+]
+java:S2479¹":Remove the non-escaped \u200D character from this literal.(©‡¾úÿÿÿÿ8…¡ûı.
+X
+java:S2479“":Remove the non-escaped \u200D character from this literal.(Ü™§‘8…¡ûı.
+X
+java:S2479£":Remove the non-escaped \u200D character from this literal.(¸‘£¤8…¡ûı.
+W
+java:S2479µ":Remove the non-escaped \u200D character from this literal.(°å®98…¡ûı.
+s	java:S117€"QRename this local variable to match the regular expression '^[a-z][a-zA-Z0-9]*$'.(º‡íçıÿÿÿÿ8÷¸ûı.
+X
+java:S2479Ë":Remove the non-escaped \u200D character from this literal.(Ğé©¹8…¡ûı.
+X
+java:S2479ş":Remove the non-escaped \u200D character from this literal.(³•ˆ8…¡ûı.
+X
+java:S2479’":Remove the non-escaped \u200D character from this literal.(ÕÎĞ8…¡ûı.
+L
+java:S1068<"/Remove this unused "myClipboard" private field.(Ò÷ÿß8…¡ûı.
+]
+java:S2479°":Remove the non-escaped \u200D character from this literal.(œÓøÿÿÿÿ8…¡ûı.
+]
+java:S2479À":Remove the non-escaped \u200D character from this literal.(ÇÍÍ³ıÿÿÿÿ8…¡ûı.
+]
+java:S2479¶":Remove the non-escaped \u200D character from this literal.(‘Û˜şÿÿÿÿ8…¡ûı.
+X
+java:S2479Ê":Remove the non-escaped \u200D character from this literal.(¤Ë‡8…¡ûı.
+]
+java:S2479ù":Remove the non-escaped \u200D character from this literal.(ù®ÇÅüÿÿÿÿ8…¡ûı.
+]
+java:S2479‘":Remove the non-escaped \u200D character from this literal.(¾¾™úÿÿÿÿ8…¡ûı.
+X
+java:S2479²":Remove the non-escaped \u200D character from this literal.(Ö¶ô„8…¡ûı.
+]
+java:S2479":Remove the non-escaped \u200D character from this literal.(úºÉŸøÿÿÿÿ8…¡ûı.
+X
+java:S2479Ş":Remove the non-escaped \u200D character from this literal.(Á®íû8…¡ûı.
+]
+java:S2479Ú":Remove the non-escaped \u200D character from this literal.(ÈŸ¢ˆøÿÿÿÿ8…¡ûı.
+]
+java:S2479á":Remove the non-escaped \u200D character from this literal.(Şî­Ãüÿÿÿÿ8…¡ûı.
+X
+java:S2479":Remove the non-escaped \u200D character from this literal.(ëÌ§²8…¡ûı.
+]
+java:S2479¢":Remove the non-escaped \u200D character from this literal.(ÆğÈ¤ûÿÿÿÿ8…¡ûı.
+]
+java:S2479Ú":Remove the non-escaped \u200D character from this literal.(áº€Èşÿÿÿÿ8…¡ûı.
+X
+java:S2479¸":Remove the non-escaped \u200D character from this literal.(ŠÇŸê8…¡ûı.
+X
+java:S2479Œ":Remove the non-escaped \u200D character from this literal.(ŸÖ‘±8…¡ûı.
+Y	java:S125ï"<This block of commented-out lines of code should be removed.(¨ô¶¤8…¡ûı.
+]
+java:S2479Ô":Remove the non-escaped \u200D character from this literal.(Ãÿ•¾úÿÿÿÿ8…¡ûı.
+X
+java:S2479®":Remove the non-escaped \u200D character from this literal.(ªÙúÄ8…¡ûı.
+¤
+java:S1186Ú"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÉÓØûÿÿÿÿ8…¡ûı.
+]
+java:S2479Š":Remove the non-escaped \u200D character from this literal.(ìñùéıÿÿÿÿ8…¡ûı.
+X
+java:S2479Ø":Remove the non-escaped \u200D character from this literal.(Õùäû8…¡ûı.
+W
+java:S2479ì":Remove the non-escaped \u200D character from this literal.(ê¸¿y8…¡ûı.
+Ÿ
+java:S1186Ğ"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(‰ÁÕ–8…¡ûı.
+]
+java:S2479ô":Remove the non-escaped \u200D character from this literal.(¾‚»‡ùÿÿÿÿ8…¡ûı.
+X
+java:S2479 ":Remove the non-escaped \u200D character from this literal.(¶÷åë8…¡ûı.
+X
+java:S2479„":Remove the non-escaped \u200D character from this literal.(£ßÕœ8…¡ûı.
+W
+java:S2479ß":Remove the non-escaped \u200D character from this literal.(İŠâd8…¡ûı.
+]
+java:S2479´":Remove the non-escaped \u200D character from this literal.(´ˆîƒüÿÿÿÿ8…¡ûı.
+X
+java:S2479à":Remove the non-escaped \u200D character from this literal.(Ìì÷8…¡ûı.
+W
+java:S2479ú":Remove the non-escaped \u200D character from this literal.(ñãô8…¡ûı.
+]
+java:S2479”":Remove the non-escaped \u200D character from this literal.(¾ûÿÿÿÿÿÿ8…¡ûı.
+X
+java:S2479±":Remove the non-escaped \u200D character from this literal.(ÂüüÅ8…¡ûı.
+X
+java:S2479":Remove the non-escaped \u200D character from this literal.(¶¡¬•8…¡ûı.
+X
+java:S2479¤":Remove the non-escaped \u200D character from this literal.(ú› Ó8…¡ûı.
+X
+java:S2479˜":Remove the non-escaped \u200D character from this literal.(ƒ¯×°8…¡ûı.
+]
+java:S2479ø":Remove the non-escaped \u200D character from this literal.(«ÂÁ¬üÿÿÿÿ8…¡ûı.
+X
+java:S2479¦":Remove the non-escaped \u200D character from this literal.(‘¤‡8…¡ûı.
+X
+java:S2479ü":Remove the non-escaped \u200D character from this literal.(¸ÁäŠ8…¡ûı.
+]
+java:S2479³":Remove the non-escaped \u200D character from this literal.(ò¢´şÿÿÿÿ8…¡ûı.
+]
+java:S2479¡":Remove the non-escaped \u200D character from this literal.(÷Äƒÿÿÿÿÿ8…¡ûı.
+]
+java:S2479ä":Remove the non-escaped \u200D character from this literal.(Ÿù«Ñıÿÿÿÿ8…¡ûı.
+]
+java:S2479´":Remove the non-escaped \u200D character from this literal.(‰¸ÿÿÿÿÿ8…¡ûı.
+Ÿ
+java:S1186ß"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(øĞ“»8…¡ûı.
+K
+java:S1481ˆ"(Remove this unused "uni" local variable.(éÚÛéıÿÿÿÿ8…¡ûı.
+]
+java:S2479©":Remove the non-escaped \u200D character from this literal.(¬Êßşÿÿÿÿ8…¡ûı.

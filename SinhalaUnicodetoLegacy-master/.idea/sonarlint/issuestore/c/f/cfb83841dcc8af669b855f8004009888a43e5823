@@ -1,0 +1,7 @@
+
+Q
+java:S2696"6Make the enclosing method "static" or remove this set.(„ò…øÿÿÿÿ
+G
+java:S1068"2Remove this unused "appOpenManager" private field.(š™àI
+œ
+java:S1186"€Add a nested comment explaining why this method is empty, throw an UnsupportedOperationException or complete the implementation.(ÎÕå¢ÿÿÿÿÿ

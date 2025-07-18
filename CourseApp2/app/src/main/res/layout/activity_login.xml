@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="10dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/login_bg"
+        android:orientation="vertical"
+        android:layout_margin="10dp"
+        android:padding="8dp">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:layout_marginTop="45dp"
+            android:text="Courses App"
+            android:textSize="35sp"
+            android:textStyle="bold"
+            android:gravity="center_horizontal" />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="200dp"
+            android:src="@drawable/login_img"
+            android:layout_gravity="center"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/text2"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:padding="15dp">
+            <EditText
+                android:id="@+id/UUsername"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:layout_marginBottom="20dp"
+                android:hint="User Name"
+                android:inputType="textPersonName"
+                android:background="@drawable/edbg"
+                android:drawableLeft="@drawable/ic_baseline_person_24"
+                android:drawableStart="@drawable/ic_baseline_person_24"/>
+            <EditText
+                android:id="@+id/Upassword"
+                android:layout_width="match_parent"
+                android:layout_height="55dp"
+                android:textSize="25sp"
+                android:padding="5dp"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:background="@drawable/edbg"
+                android:drawableLeft="@drawable/ic_baseline_lock_24"
+                android:drawableStart="@drawable/ic_baseline_lock_24"/>
+            <TextView
+                android:id="@+id/Backregis"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You Not Have Account?"
+                android:textColor="#D79F18FF"
+                android:textSize="17sp"
+                android:textStyle="bold"
+                android:padding="5dp"
+                android:gravity="end"
+                android:layout_gravity="end"/>
+        </LinearLayout>
+            <Button
+                android:id="@+id/loging"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="LOGIN"
+                android:textSize="18sp"
+                android:layout_marginLeft="10dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>

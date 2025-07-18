@@ -1,0 +1,754 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Admin_PanelActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <androidx.coordinatorlayout.widget.CoordinatorLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="?attr/colorPrimary">
+
+            <com.google.android.material.appbar.AppBarLayout
+                android:id="@+id/appbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@color/blue_200"
+                app:elevation="0dp">
+
+                <androidx.appcompat.widget.Toolbar
+                    android:id="@+id/toolbar"
+                    android:background="?attr/colorPrimary"
+                    android:layout_width="match_parent"
+                    android:layout_height="?attr/actionBarSize"
+                    android:theme="@style/Theme.KMISTRY.Toolbar"
+                    app:elevation="0dp"
+                    app:layout_collapseMode="pin"
+                    app:popupTheme="@style/Theme.KMISTRY.PopupOverlay"
+                    app:titleTextColor="@color/white" />
+
+            </com.google.android.material.appbar.AppBarLayout>
+
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="@drawable/bg_rounded_top"
+                android:fillViewport="true"
+                android:fitsSystemWindows="true"
+                app:layout_behavior="com.google.android.material.appbar.AppBarLayout$ScrollingViewBehavior">
+
+                <com.google.android.material.card.MaterialCardView
+
+                    android:id="@+id/card_search"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/imgtop"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="10dp"
+                    android:clickable="true"
+                    android:focusable="true"
+                    app:cardBackgroundColor="?attr/colorSecondaryVariant"
+                    app:cardCornerRadius="20dp"
+                    app:cardElevation="0dp"
+                    app:strokeColor="@color/blue_300"
+                    app:strokeWidth="0.3dp">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="60dp">
+
+                        <EditText
+                            android:id="@+id/lesson_name_add"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:gravity="center"
+                            android:hint="Lesson Name"
+                            android:textColorHint="@color/white"
+                            app:backgroundTint="@color/white" />
+
+                    </RelativeLayout>
+                </com.google.android.material.card.MaterialCardView>
+
+                <androidx.core.widget.NestedScrollView
+                    android:layout_width="wrap_content"
+                    android:layout_below="@+id/card_search"
+                    android:layout_height="wrap_content">
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content">
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_1"
+
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_1_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_2"
+                            android:layout_below="@+id/details_1"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_2_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_3"
+                            android:layout_below="@+id/details_2"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_3_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_4"
+                            android:layout_below="@+id/details_3"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_4_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_5"
+                            android:layout_below="@+id/details_4"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_5_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_6"
+                            android:layout_below="@+id/details_5"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_6_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_7"
+                            android:layout_below="@+id/details_6"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_7_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_8"
+                            android:layout_below="@+id/details_7"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_8_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details_9"
+                            android:layout_below="@+id/details_8"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det_9_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__10"
+                            android:layout_below="@+id/details_9"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__10_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__11"
+                            android:layout_below="@+id/details__10"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__11_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__12"
+                            android:layout_below="@+id/details__11"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__12_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__13"
+                            android:layout_below="@id/details__12"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__13_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__14"
+                            android:layout_below="@id/details__13"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__14_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__15"
+                            android:layout_below="@id/details__14"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__15_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__16"
+                            android:layout_below="@+id/details__15"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__16_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__17"
+                            android:layout_below="@+id/details__16"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__17_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__18"
+                            android:layout_below="@id/details__17"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__18_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__19"
+                            android:layout_below="@id/details__18"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__19_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details"
+                               />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/details__20"
+                            android:layout_below="@id/details__19"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_det__20_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="Lesson Details"
+                                />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/lesson_main_name"
+                            android:layout_below="@id/details__20"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="5dp"
+                            app:cardElevation="0dp"
+
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <EditText
+                                android:id="@+id/lesson_main_name_1"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:hint="General/Organic etc..." />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+
+                        <com.google.android.material.card.MaterialCardView
+
+                            android:id="@+id/send_data"
+                            android:layout_below="@id/lesson_main_name"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="4dp"
+                            android:layout_marginTop="4dp"
+                            android:layout_marginRight="4dp"
+                            android:layout_marginBottom="4dp"
+                            android:clickable="true"
+                            android:focusable="true"
+                            app:cardCornerRadius="10dp"
+                            app:cardElevation="0dp"
+                            app:cardBackgroundColor="?attr/colorPrimary"
+                            app:strokeColor="@color/gray_500"
+                            app:strokeWidth="0.3dp">
+
+                            <TextView
+                                android:id="@+id/send_data_add"
+                                android:layout_width="match_parent"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:layout_marginRight="10dp"
+                                android:gravity="center"
+                                android:text="Send to FireBase"
+                                android:textSize="19dp"
+                                android:padding="15dp"
+                                android:textColor="@color/white" />
+
+                        </com.google.android.material.card.MaterialCardView>
+
+                    </RelativeLayout>
+
+                </androidx.core.widget.NestedScrollView>
+
+                <ImageView
+                    android:id="@+id/imgtop"
+                    android:layout_width="40dp"
+                    android:layout_height="5dp"
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="8dp"
+                    android:background="@drawable/bg_strip_round" />
+
+
+            </RelativeLayout>
+
+        </androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,30 @@
+<resources>
+    <string name="app_name">Stay at Home</string>
+    <string name="yoursdetect">Stay home doing your homework</string>
+    <string name="new_user_signup">New User <b>SingUp</b></string>
+    <string name="todo">TODO</string>
+    <string name="password">Password</string>
+    <string name="email">Email</string>
+    <string name="user_name">User Name</string>
+    <string name="haveAccount">I Have acount <b>Login</b></string>
+    <string name="login_teachers">Login Teachers</string>
+    <string name="teacher_email">Teacher Email</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="about_us">About Us</string>
+    <string name="version">Version</string>
+    <string name="developars">Developers</string>
+    <string name="akalanka">Akalanka Kaushalya</string>
+    <string name="contact">Contact</string>
+    <string name="contactnum">+94 77 980 5664</string>
+    <string name="privacy_policy">Privacy Policy</string>
+    <string name="about">About</string>
+    <string name="En">En</string>
+    <string name="Sn">සීං</string>
+    <string name="mymail">kaushalyaakalanka664@gmail.com</string>
+    <string name="teaches_dashbord">Teaches Dashbord</string>
+    <string name="submit">Submit</string>
+    <string name="subject_title">Subject Title</string>
+    <string name="subject_detail">Subject Dieatel</string>
+    <string name="workview">Work View</string>
+</resources>

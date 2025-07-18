@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".DataActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/RRL"
+        android:fontFamily="@font/thec"
+        android:text="User Detail"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+    <RelativeLayout
+        android:id="@+id/RRL"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginEnd="35dp"
+        android:layout_marginBottom="35dp"
+        android:background="@drawable/logbg">
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/userName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/usernameEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_edittexts01"
+                android:drawableStart="@drawable/ic_action_name"
+                android:drawableLeft="@drawable/ic_action_name"
+                android:drawablePadding="10dp"
+                android:hint="User Name"
+                android:inputType="textPersonName|textAutoComplete"
+                android:maxLength="20"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/Age"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/userName"
+            android:layout_margin="8dp"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/ageEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/userName"
+                android:background="@drawable/shape_edittexts01"
+                android:drawableStart="@drawable/ic_action_age"
+                android:drawableLeft="@drawable/ic_action_age"
+                android:drawablePadding="10dp"
+                android:hint="Your Age"
+                android:inputType="number"
+                android:maxLength="2"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:id="@+id/TelNo"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/Age"
+            android:layout_margin="8dp"
+            app:hintEnabled="false">
+
+            <EditText
+                android:id="@+id/telnoEt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/Age"
+                android:background="@drawable/shape_edittexts01"
+                android:drawableStart="@drawable/ic_action_telno"
+                android:drawableLeft="@drawable/ic_action_telno"
+                android:drawablePadding="10dp"
+                android:hint="Your Mobile"
+                android:inputType="phone|number"
+                android:maxLength="10"
+                android:padding="10dp"
+                android:textColor="@color/black"
+                android:textColorHint="@android:color/darker_gray" />
+        </com.google.android.material.textfield.TextInputLayout>
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/nextBtn"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        android:layout_below="@+id/RRL"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="15dp"
+        android:rotation="180"
+        android:src="@drawable/next" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:fontFamily="@font/advertisersgothic"
+        android:text="@string/app_name"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="18dp" />
+</RelativeLayout>

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".loginActivity">
+    <TextView
+        android:id="@+id/text2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="WELCOME COURSEAPP"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:layout_marginTop="40dp"
+        android:textSize="28sp"
+        android:gravity="center"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/text2"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="15dp">
+        <EditText
+            android:id="@+id/UUsername"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:layout_marginBottom="20dp"
+            android:hint="User Name"
+            android:inputType="textPersonName"
+            android:background="@drawable/edbg"
+            android:drawableLeft="@drawable/ic_baseline_person_24"
+            android:drawableStart="@drawable/ic_baseline_person_24"/>
+        <EditText
+            android:id="@+id/Upassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:textSize="25sp"
+            android:padding="5dp"
+            android:hint="Password"
+            android:inputType="textPassword"
+            android:background="@drawable/edbg"
+            android:drawableLeft="@drawable/ic_baseline_lock_24"
+            android:drawableStart="@drawable/ic_baseline_lock_24"/>
+        <TextView
+            android:id="@+id/Backregis"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="You Not Have Account?"
+            android:textColor="#D79F18FF"
+            android:textSize="17sp"
+            android:textStyle="bold"
+            android:padding="5dp"
+            android:gravity="end"
+            android:layout_gravity="end"/>
+        <Button
+            android:id="@+id/loginbut"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Login"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+    </LinearLayout>
+</RelativeLayout>

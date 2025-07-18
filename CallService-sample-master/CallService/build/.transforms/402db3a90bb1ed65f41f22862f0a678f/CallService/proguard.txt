@@ -1,0 +1,30 @@
+-keep class org.webrtc.** { *; }
+-dontwarn org.codehaus.jackson.**
+
+-keepattributes InnerClasses
+-keep public class com.threebytes.callapi.CallService {
+	public <methods>;
+}
+-keep interface com.threebytes.callapi.CallService$CallbackInterface {*;}
+-keep public abstract class com.threebytes.callapi.CallService$Callback {*;}
+
+# Needed by google-api-client to keep generic types and @Key annotations accessed via reflection
+-keepclassmembers class * {
+  @com.google.api.client.util.Key <fields>;
+}
+-keepattributes Signature,RuntimeVisibleAnnotations,AnnotationDefault
+
+-keep class com.google.** { *;}
+-keep interface com.google.** { *;}
+-dontwarn com.google.**
+
+# Needed by google-http-client-android when linking against an older platform version
+-dontwarn com.google.api.client.extensions.android.**
+
+# Needed by google-api-client-android when linking against an older platform version
+-dontwarn com.google.api.client.googleapis.extensions.android.**
+-keep class com.startapp.** {
+      *;
+}
+-dontwarn android.webkit.JavascriptInterface
+-dontwarn com.startapp.**

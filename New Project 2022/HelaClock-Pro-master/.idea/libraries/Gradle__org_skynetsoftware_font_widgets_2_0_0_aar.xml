@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="Gradle: org.skynetsoftware:font-widgets:2.0.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c7da6c1ce9e8142125124e42423a015/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c7da6c1ce9e8142125124e42423a015/res" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/2c7da6c1ce9e8142125124e42423a015/AndroidManifest.xml" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">My School</string>
+    <string name="new_user_signup">New User? <b>SignUp</b></string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="lorem">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed cursus rhoncus augue, id molestie lorem venenatis at. Vestibulum eleifend non mi vel dignissim. Suspendisse potenti. Quisque egestas mi leo, eget tempor sem vulputate vel. Morbi molestie nulla neque, a vestibulum est ullamcorper efficitur. Sed ac nisl sollicitudin, vestibulum dui a, finibus diam. Praesent in venenatis nisl, sit amet dictum leo. Nunc sapien lacus, malesuada a justo lacinia, gravida iaculis felis. Etiam non gravida mi. In bibendum turpis eu sollicitudin faucibus.
+
+Ut nisl enim, ultricies sit amet mollis sit amet,  parturient montes, nascetur ridiculus mus. Suspendisse sed quam commodo, volutpat leo at,</string>
+</resources>

@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".AddActivitys.AddLessonActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentBottom="true">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="15dp"
+            android:orientation="vertical">
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/searchCv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="8dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/searchTil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/searchurlEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_edittexts01"
+                        android:drawablePadding="10dp"
+                        android:hint="Video Url"
+                        android:inputType="text|textUri"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/img_thumnail"
+                android:layout_width="255dp"
+                android:layout_height="180dp"
+                android:layout_below="@+id/searchCv"
+                android:layout_centerInParent="true"
+                android:layout_marginTop="25dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/loageimage" />
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/LessontitleCv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/img_thumnail"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="8dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/LessontitleTil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/LessontitleEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/shape_edittexts01"
+                        android:drawablePadding="10dp"
+                        android:gravity="top|start"
+                        android:hint="Title"
+                        android:inputType="text|textMultiLine"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/discriptionCv"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/LessontitleCv"
+                android:layout_marginLeft="8dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginRight="8dp"
+                app:cardBackgroundColor="@color/cardview_light_background"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <com.google.android.material.textfield.TextInputLayout
+                    android:id="@+id/discriptiomTil"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    app:hintEnabled="false">
+
+                    <EditText
+                        android:id="@+id/discriptionEt"
+                        android:layout_width="match_parent"
+                        android:layout_height="200dp"
+                        android:background="@drawable/shape_edittexts01"
+                        android:drawablePadding="10dp"
+                        android:gravity="top|start"
+                        android:hint="Short Discription"
+                        android:inputType="text|textMultiLine"
+                        android:padding="10dp"
+                        android:textColor="@color/black"
+                        android:textColorHint="@android:color/darker_gray" />
+                </com.google.android.material.textfield.TextInputLayout>
+            </androidx.cardview.widget.CardView>
+
+            <Button
+                android:id="@+id/button"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/discriptionCv"
+                android:layout_marginTop="25dp"
+                android:text="Submit Data"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/button"
+                android:layout_margin="8dp"
+                android:text="@string/youtube_video_url_submit_data"
+                android:textColor="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold|normal" />
+        </RelativeLayout>
+    </ScrollView>
+
+
+</RelativeLayout>

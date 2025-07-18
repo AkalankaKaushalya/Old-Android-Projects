@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "835992172521",
+    "project_id": "boom-chat-b1e8a",
+    "storage_bucket": "boom-chat-b1e8a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:835992172521:android:4be946be42d9893c4a3d78",
+        "android_client_info": {
+          "package_name": "com.boomchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "835992172521-ah0j8ifhgo26kd4nr281crmj719o08p2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCuK4hRABt4ZW45ry8cqqwf6XCKoNPHhtI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "835992172521-ah0j8ifhgo26kd4nr281crmj719o08p2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

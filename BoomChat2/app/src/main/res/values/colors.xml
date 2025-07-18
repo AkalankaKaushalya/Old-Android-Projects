@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#27FF00</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+// Progres bar Coloer //
+    <color name="red">#FF0303</color>
+    <color name="green">#4EFA04</color>
+    <color name="yelo">#F7FF03</color>
+// Tap target View Coloar //
+    <color name="fistbg">#C303FFC4</color>
+    <color name="scendbg">#0410FA</color>
+
+</resources>

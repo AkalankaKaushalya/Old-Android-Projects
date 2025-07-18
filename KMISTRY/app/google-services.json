@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "281852180120",
+    "firebase_url": "https://k-mistry-app-default-rtdb.firebaseio.com",
+    "project_id": "k-mistry-app",
+    "storage_bucket": "k-mistry-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:281852180120:android:a0187098a4b3507a8082ed",
+        "android_client_info": {
+          "package_name": "com.skypper.k_mistry"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "281852180120-tos444tfncace9fb646pbo3ducnicoci.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBR34L9Sabhq3QJ8ofxK59g6DZhp9K1PGw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "281852180120-tos444tfncace9fb646pbo3ducnicoci.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tool-Master-admin</string>
+    <string-array name="type">
+        <item>Select Type</item>
+        <item>ROOT</item>
+        <item>NOT-ROOT</item>
+    </string-array>
+</resources>

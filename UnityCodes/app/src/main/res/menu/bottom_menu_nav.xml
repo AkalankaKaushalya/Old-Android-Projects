@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_codes"
+        android:icon="@drawable/ic_action_codes"
+        android:title="Codes" />
+    <item
+        android:id="@+id/nav_Font"
+        android:icon="@drawable/ic_action_font"
+        android:title="Font" />
+    <item
+        android:id="@+id/nav_lesons"
+        android:icon="@drawable/ic_action_lessons"
+        android:title="Lessons" />
+    <item
+        android:id="@+id/nav_product"
+        android:icon="@drawable/ic_action_apks"
+        android:title="Product" />
+</menu>

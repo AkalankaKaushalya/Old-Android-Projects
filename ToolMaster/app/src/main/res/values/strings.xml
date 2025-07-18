@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Tool-Master</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="codesumple">$ apt update -\n $ apt install git -\n $ git clone https://github.com/rajkum -\n $ cd Tool-X -\n $ chmod +x install$ apt update -\n $ apt install git -\n $ git clone https://github.com/rajkum -\n $ cd Tool-X -\n $ chmod +x install$ apt update -\n $ apt install git -\n $ git clone https://github.com/rajkum -\n $ cd Tool-X -\n $ chmod +x install$ apt update -\n $ apt install git -\n $ git clone https://github.com/rajkum -\n $ cd Tool-X -\n $ chmod +x install$ apt update -\n $ apt install git -\n $ git clone https://github.com/rajkum -\n $ cd Tool-X -\n $ chmod +x install -\n $ sh install if not work than use ./install.rggot</string>
+
+</resources>

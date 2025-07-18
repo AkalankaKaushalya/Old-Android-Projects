@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AddKalitoolActivity">
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_about"
+            android:layout_margin="10dp"
+            android:orientation="vertical"
+            android:padding="8dp">
+            <EditText
+                android:id="@+id/toolnameEt"
+                android:layout_width="match_parent"
+                android:background="@drawable/shape_edittexts01"
+                android:layout_height="50dp"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:hint="Tool Name"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/tooldescripEt"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/shape_edittexts01"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:gravity="top|left"
+                android:hint="Tool Description"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <EditText
+                android:id="@+id/toolcommnedEt"
+                android:layout_width="match_parent"
+                android:layout_height="220dp"
+                android:background="@drawable/shape_edittexts01"
+                android:layout_margin="8dp"
+                android:padding="8dp"
+                android:gravity="top|left"
+                android:hint="Tool Commend ..Pless add your Coumand new line blckslash and n"
+                android:textColor="@color/black"
+                android:textSize="18sp" />
+
+            <Spinner
+                android:id="@+id/ttype"
+                android:layout_width="match_parent"
+                android:layout_margin="5dp"
+                android:layout_height="45dp" />
+
+            <Button
+                android:id="@+id/uplodebtn"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentBottom="true"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/shape_button01"
+                android:layout_marginRight="15dp"
+                android:layout_marginBottom="15dp"
+                android:text="Uplode Tool"/>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout></layout>

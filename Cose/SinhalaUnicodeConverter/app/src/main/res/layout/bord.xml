@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    android:id="@+id/rr1"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorPrimary">
+
+    <RelativeLayout
+        android:layout_above="@+id/seekBar"
+        android:id="@+id/firstlayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rr2"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageButton
+                android:id="@+id/copytext"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_copy" />
+
+            <ImageButton
+                android:id="@+id/sharetext"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_below="@+id/copytext"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_shaer" />
+
+            <ImageButton
+                android:id="@+id/resate"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_below="@+id/copytext"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_resate" />
+        </LinearLayout>
+    </RelativeLayout>
+        <RelativeLayout
+            android:id="@+id/rr3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/rr2">
+
+            <EditText
+                android:id="@+id/unicode"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginStart="5dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginEnd="5dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/round_editex"
+                android:ems="10"
+                android:gravity="top"
+                android:inputType="textMultiLine"
+                android:minLines="1"
+                android:padding="7dip"
+                android:text=""
+                android:textColor="@android:color/black"
+                android:textSize="19sp"
+                android:textStyle="bold" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+
+    <SeekBar
+        android:id="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:padding="8dp"
+        app:thumbColor="#09EF65"
+        app:tickColorInactive="#09EF65"
+        app:trackColor="#B24AC36C"
+        app:trackColorActive="#09EF65" />
+
+    <RelativeLayout
+        android:layout_below="@+id/seekBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    <RelativeLayout
+        android:id="@+id/rr4"
+        android:layout_below="@id/seekBar"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        tools:ignore="NotSibling">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <CheckBox
+                android:id="@+id/showchex"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <ImageButton
+                android:id="@+id/copytext"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_copy" />
+
+            <ImageButton
+                android:id="@+id/sharetext"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_shaer" />
+
+            <ImageButton
+                android:id="@+id/resate"
+                android:layout_width="50dp"
+                android:layout_height="55dp"
+                android:layout_marginTop="10dp"
+                android:background="@android:color/transparent"
+                android:src="@drawable/ic_action_resate" />
+        </LinearLayout>
+    </RelativeLayout>
+    <RelativeLayout
+        android:id="@+id/rr5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@+id/rr4">
+
+        <EditText
+            android:id="@+id/ligacy"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="5dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="5dp"
+            android:layout_marginBottom="5dp"
+            android:background="@drawable/round_editex"
+            android:ems="10"
+            android:gravity="top"
+            android:inputType="textMultiLine"
+            android:minLines="1"
+            android:padding="7dip"
+            android:text=""
+            android:textColor="@android:color/black"
+            android:textSize="19sp"
+            android:textStyle="bold" />
+    </RelativeLayout>
+</RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.bookapp.book">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.MaterialComponents.Light.NoActionBar"
+        android:usesCleartextTraffic="true"
+        tools:targetApi="m">
+
+
+        <activity android:name=".SplashActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".ProfileEditActivity"></activity>
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".RegisterAndLogin.LoginActivity" />
+        <activity android:name=".RegisterAndLogin.RegisterActivity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".DashbordAdminActivity" />
+        <activity android:name=".DashbordUserActivity" />
+        <activity android:name=".PdfListAdminActivity" />
+        <activity android:name=".CategoryAddActivity" />
+        <activity android:name=".PdfAddActivity" />
+        <activity android:name=".PdfViewActivity" />
+        <activity android:name=".PdfDetailActivity" />
+        <activity android:name=".PdfEditActivity" />
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-9382446765591725~5401643219" />
+    </application>
+
+</manifest>

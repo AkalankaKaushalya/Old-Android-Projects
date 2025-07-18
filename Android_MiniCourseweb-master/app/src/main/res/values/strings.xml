@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">MAD Lab11</string>
+    <string name="username">Username</string>
+    <string name="password">Password</string>
+    <string name="register">Register</string>
+    <string name="login">Login</string>
+    <string name="courseApp">The CourseApp</string>
+    <string name="registerForm">RegisterForm</string>
+    <string name="teacher">Teacher</string>
+    <string name="student">Student</string>
+    <string name="welcomeUsername">Welcome Username</string>
+    <string name="subject">Subject</string>
+    <string name="message">Message</string>
+    <string name="send">Send</string>
+    <string name="item">Item</string>
+    <string name="subitem">Sub Item</string>
+    <string name="lecturer">Lecurer</string>
+    <string name="channel_name">Student Message</string>
+    <string name="channel_description">Student Latest Message</string>
+    <!--<string name=""></string>-->
+</resources>

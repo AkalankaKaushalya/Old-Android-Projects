@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "490021939258",
+    "project_id": "will-admin-vpn",
+    "storage_bucket": "will-admin-vpn.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:490021939258:android:8cb8baa02bba195fbb2d03",
+        "android_client_info": {
+          "package_name": "com.will_dev.vpn_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "490021939258-l8vjqmph2uofs21qjt97p5pkkteevfqh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAGxNgJLQx_7ncZgX4jnTFiAeTAGcv7Rzs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "490021939258-l8vjqmph2uofs21qjt97p5pkkteevfqh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

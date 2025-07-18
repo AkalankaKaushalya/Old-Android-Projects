@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_about.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_logobg.xml" value="0.26481481481481484" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_prof.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_profile_ovel.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_termxbg.xml" value="0.2611111111111111" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_toolbar02.xml" value="0.26296296296296295" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_view.xml" value="0.25833333333333336" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_about_us.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_dashbord.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_login.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_profile.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_splash.xml" value="0.13272543059777103" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_viewkali.xml" value="0.25" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/fragment_kali.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/fragment_termux.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/kali_item.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/termx_item.xml" value="0.33" />
+        <entry key="..\:/Users/Administrator/AndroidStudioProjects/ToolMaster/app/src/main/res/menu/bottom_menu_nav.xml" value="0.27291666666666664" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_logobg.xml" value="0.2733333333333333" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/drawable/shape_toolbar02.xml" value="0.2462962962962963" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_view_termax.xml" value="0.25" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/activity_viewkali.xml" value="0.25" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/fragment_kali.xml" value="0.12708333333333333" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/fragment_termux.xml" value="0.3490701001430615" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/kali_item.xml" value="0.264" />
+        <entry key="..\:/Users/akala/AndroidStudioProjects/ToolMaster/app/src/main/res/layout/termx_item.xml" value="0.25" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="1.8" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>
